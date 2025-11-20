@@ -1,0 +1,75 @@
+{
+  "best_global_step": 8,
+  "best_metric": 0.125,
+  "best_model_checkpoint": "C:\\Users\\Mukesh\\Desktop\\psychosis_frontend_backend\\backend\\models\\distilbert\\checkpoint-8",
+  "epoch": 3.0,
+  "eval_steps": 500,
+  "global_step": 24,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.125,
+      "eval_loss": 2.073665142059326,
+      "eval_runtime": 5.0391,
+      "eval_samples_per_second": 3.175,
+      "eval_steps_per_second": 0.397,
+      "step": 8
+    },
+    {
+      "epoch": 1.25,
+      "grad_norm": 2.7046613693237305,
+      "learning_rate": 1.25e-05,
+      "loss": 2.0884,
+      "step": 10
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.125,
+      "eval_loss": 2.0598113536834717,
+      "eval_runtime": 5.1263,
+      "eval_samples_per_second": 3.121,
+      "eval_steps_per_second": 0.39,
+      "step": 16
+    },
+    {
+      "epoch": 2.5,
+      "grad_norm": 2.4636294841766357,
+      "learning_rate": 4.166666666666667e-06,
+      "loss": 2.0511,
+      "step": 20
+    },
+    {
+      "epoch": 3.0,
+      "eval_accuracy": 0.125,
+      "eval_loss": 2.0522637367248535,
+      "eval_runtime": 4.239,
+      "eval_samples_per_second": 3.774,
+      "eval_steps_per_second": 0.472,
+      "step": 24
+    }
+  ],
+  "logging_steps": 10,
+  "max_steps": 24,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 3,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": true
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 12718230994944.0,
+  "train_batch_size": 8,
+  "trial_name": null,
+  "trial_params": null
+}
